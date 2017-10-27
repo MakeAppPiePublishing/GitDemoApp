@@ -12,8 +12,9 @@ class ViewController: UIViewController {
 var toggle = 0
     @IBOutlet weak var welcome: UILabel!
     @IBAction func hello(_ sender: UIButton) {
+        //Multiple Message toggle
         toggle += 1
-        switch (toggle % 3){
+        switch (toggle % 4){ //Show all four messages
         case 0: welcome.text = "Hello, Pizza"
         case 1: welcome.text = "Try the Big Island Pizza"
         case 2: welcome.text = "We also have Desserts!"
