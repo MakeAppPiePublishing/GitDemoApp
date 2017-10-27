@@ -9,10 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+var toggle = 0
     @IBOutlet weak var welcome: UILabel!
     @IBAction func hello(_ sender: UIButton) {
-        welcome.text = "Hello, Pizza"
+        toggle += 1
+        switch (toggle % 3){
+        case 0: welcome.text = "Hello, Pizza"
+        case 1: welcome.text = "Try the Big Island Pizza"
+        case 2: welcome.text = "We also have Desserts!"
+        default: welcome.text = "Welcome"
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
