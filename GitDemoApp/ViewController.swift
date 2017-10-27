@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+// A simple App for showing a message
 class ViewController: UIViewController {
 var toggle = 0
     @IBOutlet weak var welcome: UILabel!
@@ -15,8 +15,8 @@ var toggle = 0
         //Multiple Message toggle
         toggle += 1
         switch (toggle % 4){ //Show all four messages
-        case 0: welcome.text = "Hello, Pizza"
-        case 1: welcome.text = "Try the Big Island Pizza"
+        case 0: welcome.text = "Aloha, Pizza"
+        case 1: welcome.text = "Try our Huli Chicken Pizza"
         case 2: welcome.text = "We also have Desserts!"
         default: welcome.text = "Welcome"
         }
