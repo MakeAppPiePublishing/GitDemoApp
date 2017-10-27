@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" image="4D5B3346-1A71-4D24-8EDA-A8BCDF8C825A" translatesAutoresizingMaskIntoConstraints="NO" id="liq-cl-A4m">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" image="koa" translatesAutoresizingMaskIntoConstraints="NO" id="liq-cl-A4m">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Huli Pizza Company" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SL9-j0-DEf">
@@ -75,6 +75,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="4D5B3346-1A71-4D24-8EDA-A8BCDF8C825A" width="2896" height="1944"/>
+        <image name="koa" width="2896" height="1944"/>
     </resources>
 </document>
